@@ -5,19 +5,14 @@ export const CURRENCY_CHANGED = "currencyChange";
 export const CURRENCIES_REVERSED = "currenciesReversed";
 
 export type CurrencySelectedEvent = {
-  detail: {
-    currency: CurrencyCode;
-  };
+  currency: CurrencyCode;
 };
 
-export type CurrencyChangedEvent = CurrencySelectedEvent & {
-  detail: {
-    index: number;
-  };
+export type CurrencyChangedEvent = {
+  index: number;
+  currency: CurrencyCode;
 };
 
 export type CurrenciesReversedEvent = {
-  detail: {
-    currencies: [CurrencyCode, CurrencyCode];
-  };
+  currencies: [CurrencyCode, CurrencyCode];
 };
