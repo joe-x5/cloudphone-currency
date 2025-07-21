@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div id="app">
+      <section class="currency-selection">
+        <label for="currency1" id="currency1-label"
+          >USD <i class="fflag fflag-US ff-round ff-md"></i
+        ></label>
+        <input
+          type="text"
+          inputmode="numeric"
+          pattern="/^(0|[1-9]\d*)(\.\d+)?$/"
+          x-puffin-entersfullscreen="off"
+          name="currency1"
+          id="currency1"
+        />
+      </section>
+      <hr />
+      <button id="reverse">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4.55621 12.3028V4.8931L2.91607 6.51175C2.71954 6.70569 2.40301 6.70386 2.20904 6.50736C2.01506 6.31083 2.0174 5.99431 2.21392 5.80033L4.70465 3.34134L4.74273 3.30765C4.93826 3.15006 5.22475 3.16122 5.40728 3.34134L7.89849 5.80033L7.54693 6.1558L7.19586 6.51175L5.55621 4.89359V12.3028C5.55618 12.5788 5.33225 12.8027 5.05621 12.8028C4.78008 12.8028 4.55624 12.5789 4.55621 12.3028ZM7.89849 5.80033C8.09484 5.99433 8.09681 6.31089 7.90289 6.50736C7.7089 6.7038 7.39236 6.7057 7.19586 6.51175L7.89849 5.80033Z"
+          />
+          <path
+            d="M10.4441 3.6973C10.4441 3.42115 10.668 3.1973 10.9441 3.1973C11.2202 3.19739 11.4441 3.42121 11.4441 3.6973V11.106L13.0838 9.48831C13.2803 9.29435 13.5968 9.29624 13.7908 9.49271C13.9847 9.68919 13.9828 10.0057 13.7864 10.1997L11.2952 12.6587C11.1005 12.8508 10.7873 12.8509 10.5926 12.6587L8.10183 10.1997C7.9053 10.0058 7.90298 9.68924 8.09695 9.49271C8.27881 9.30846 8.56847 9.29525 8.7659 9.45413L8.80398 9.48831L10.4441 11.1065V3.6973Z"
+          />
+        </svg>
+      </button>
+      <section class="currency-selection">
+        <label for="currency2" id="currency2-label"
+          >INR <i class="fflag fflag-IN ff-round ff-md"></i
+        ></label>
+        <input
+          type="text"
+          inputmode="numeric"
+          pattern="/^(0|[1-9]\d*)(\.\d+)?$/"
+          x-puffin-entersfullscreen="off"
+          name="currency2"
+          id="currency2"
+        />
+      </section>
+    </div>
+    <dialog id="choose-currency">
+      <ol id="currency-list"></ol>
+
+      <template
+        id="currency-list-item"
+        shadowrootmode="open"
+        shadowrootdelegatesfocus
+      >
+        <li>
+          <button class="currency-item">
+            <i class="fflag ff-round ff-md"></i>
+            <span class="currency-symbol"></span>
+            <div>
+              <span class="currency-name"></span>
+              <span class="currency-code"></span>
+            </div>
+          </button>
+        </li>
+      </template>
+    </dialog>
+    <script type="text/javascript" src="js/index.js" async></script>
+  </body>
+</html>

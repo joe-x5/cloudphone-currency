@@ -1,0 +1,1447 @@
+[
+  {
+    "currencyCode": "aed",
+    "englishCurrencyName": "Emirati Dirham",
+    "localCurrencyName": "درهم إماراتي",
+    "currencySymbol": "د.إ",
+    "countryRegionFlagEmoji": "🇦🇪",
+    "languageCode": "ar-AE",
+    "smallestCommonDenomination": 0.25
+  },
+  {
+    "currencyCode": "afn",
+    "englishCurrencyName": "Afghan Afghani",
+    "localCurrencyName": "افغانی",
+    "currencySymbol": "؋",
+    "countryRegionFlagEmoji": "🇦🇫",
+    "languageCode": "ps-AF",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "all",
+    "englishCurrencyName": "Albanian Lek",
+    "localCurrencyName": "Lek",
+    "currencySymbol": "L",
+    "countryRegionFlagEmoji": "🇦🇱",
+    "languageCode": "sq-AL",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "amd",
+    "englishCurrencyName": "Armenian Dram",
+    "localCurrencyName": "դրամ",
+    "currencySymbol": "֏",
+    "countryRegionFlagEmoji": "🇦🇲",
+    "languageCode": "hy-AM",
+    "smallestCommonDenomination": 10
+  },
+  {
+    "currencyCode": "ang",
+    "englishCurrencyName": "Dutch Guilder",
+    "localCurrencyName": "Antilliaanse gulden",
+    "currencySymbol": "ƒ",
+    "countryRegionFlagEmoji": "🇨🇼",
+    "languageCode": "nl-CW",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "aoa",
+    "englishCurrencyName": "Angolan Kwanza",
+    "localCurrencyName": "Kwanza",
+    "currencySymbol": "Kz",
+    "countryRegionFlagEmoji": "🇦🇴",
+    "languageCode": "pt-AO",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "ars",
+    "englishCurrencyName": "Argentine Peso",
+    "localCurrencyName": "Peso argentino",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇦🇷",
+    "languageCode": "es-AR",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "aud",
+    "englishCurrencyName": "Australian Dollar",
+    "localCurrencyName": "Australian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇦🇺",
+    "languageCode": "en-AU",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "awg",
+    "englishCurrencyName": "Aruban or Dutch Guilder",
+    "localCurrencyName": "Arubaanse florin",
+    "currencySymbol": "ƒ",
+    "countryRegionFlagEmoji": "🇦🇼",
+    "languageCode": "nl-AW",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "azn",
+    "englishCurrencyName": "Azerbaijan Manat",
+    "localCurrencyName": "Azərbaycan manatı",
+    "currencySymbol": "₼",
+    "countryRegionFlagEmoji": "🇦🇿",
+    "languageCode": "az-AZ",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bam",
+    "englishCurrencyName": "Bosnian Convertible Mark",
+    "localCurrencyName": "Konvertibilna marka",
+    "currencySymbol": "KM",
+    "countryRegionFlagEmoji": "🇧🇦",
+    "languageCode": "bs-BA",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "bbd",
+    "englishCurrencyName": "Barbadian or Bajan Dollar",
+    "localCurrencyName": "Barbados Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇧🇧",
+    "languageCode": "en-BB",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bdt",
+    "englishCurrencyName": "Bangladeshi Taka",
+    "localCurrencyName": "টাকা",
+    "currencySymbol": "৳",
+    "countryRegionFlagEmoji": "🇧🇩",
+    "languageCode": "bn-BD",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "bgn",
+    "englishCurrencyName": "Bulgarian Lev",
+    "localCurrencyName": "Лев",
+    "currencySymbol": "лв",
+    "countryRegionFlagEmoji": "🇧🇬",
+    "languageCode": "bg-BG",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bhd",
+    "englishCurrencyName": "Bahraini Dinar",
+    "localCurrencyName": "دينار بحريني",
+    "currencySymbol": ".د.ب",
+    "countryRegionFlagEmoji": "🇧🇭",
+    "languageCode": "ar-BH",
+    "smallestCommonDenomination": 0.005
+  },
+  {
+    "currencyCode": "bif",
+    "englishCurrencyName": "Burundian Franc",
+    "localCurrencyName": "Franc burundais",
+    "currencySymbol": "FBu",
+    "countryRegionFlagEmoji": "🇧🇮",
+    "languageCode": "fr-BI",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "bmd",
+    "englishCurrencyName": "Bermudian Dollar",
+    "localCurrencyName": "Bermudian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇧🇲",
+    "languageCode": "en-BM",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bnd",
+    "englishCurrencyName": "Bruneian Dollar",
+    "localCurrencyName": "Ringgit Brunei",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇧🇳",
+    "languageCode": "ms-BN",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bob",
+    "englishCurrencyName": "Bolivian Bolíviano",
+    "localCurrencyName": "Boliviano",
+    "currencySymbol": "Bs.",
+    "countryRegionFlagEmoji": "🇧🇴",
+    "languageCode": "es-BO",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "brl",
+    "englishCurrencyName": "Brazilian Real",
+    "localCurrencyName": "Real brasileiro",
+    "currencySymbol": "R$",
+    "countryRegionFlagEmoji": "🇧🇷",
+    "languageCode": "pt-BR",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bsd",
+    "englishCurrencyName": "Bahamian Dollar",
+    "localCurrencyName": "Bahamian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇧🇸",
+    "languageCode": "en-BS",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "btn",
+    "englishCurrencyName": "Bhutanese Ngultrum",
+    "localCurrencyName": "ངུལ་ཀྲམ",
+    "currencySymbol": "Nu.",
+    "countryRegionFlagEmoji": "🇧🇹",
+    "languageCode": "dz-BT",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bwp",
+    "englishCurrencyName": "Botswana Pula",
+    "localCurrencyName": "Pula",
+    "currencySymbol": "P",
+    "countryRegionFlagEmoji": "🇧🇼",
+    "languageCode": "en-BW",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "byn",
+    "englishCurrencyName": "Belarusian Ruble",
+    "localCurrencyName": "Беларускі рубель",
+    "currencySymbol": "Br",
+    "countryRegionFlagEmoji": "🇧🇾",
+    "languageCode": "be-BY",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "bzd",
+    "englishCurrencyName": "Belizean Dollar",
+    "localCurrencyName": "Belize Dollar",
+    "currencySymbol": "BZ$",
+    "countryRegionFlagEmoji": "🇧🇿",
+    "languageCode": "en-BZ",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "cad",
+    "englishCurrencyName": "Canadian Dollar",
+    "localCurrencyName": "Canadian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇨🇦",
+    "languageCode": "en-CA",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "cdf",
+    "englishCurrencyName": "Congolese Franc",
+    "localCurrencyName": "Franc congolais",
+    "currencySymbol": "FC",
+    "countryRegionFlagEmoji": "🇨🇩",
+    "languageCode": "fr-CD",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "chf",
+    "englishCurrencyName": "Swiss Franc",
+    "localCurrencyName": "Schweizer Franken",
+    "currencySymbol": "CHF",
+    "countryRegionFlagEmoji": "🇨🇭",
+    "languageCode": "de-CH",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "clp",
+    "englishCurrencyName": "Chilean Peso",
+    "localCurrencyName": "Peso chileno",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇨🇱",
+    "languageCode": "es-CL",
+    "smallestCommonDenomination": 10
+  },
+  {
+    "currencyCode": "cnh",
+    "englishCurrencyName": "Chinese Yuan Renminbi Offshore",
+    "localCurrencyName": "离岸人民币",
+    "currencySymbol": "¥",
+    "countryRegionFlagEmoji": "🇨🇳",
+    "languageCode": "zh-CN",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "cny",
+    "englishCurrencyName": "Chinese Yuan Renminbi",
+    "localCurrencyName": "人民币",
+    "currencySymbol": "¥",
+    "countryRegionFlagEmoji": "🇨🇳",
+    "languageCode": "zh-CN",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "cop",
+    "englishCurrencyName": "Colombian Peso",
+    "localCurrencyName": "Peso colombiano",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇨🇴",
+    "languageCode": "es-CO",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "crc",
+    "englishCurrencyName": "Costa Rican Colon",
+    "localCurrencyName": "Colón costarricense",
+    "currencySymbol": "₡",
+    "countryRegionFlagEmoji": "🇨🇷",
+    "languageCode": "es-CR",
+    "smallestCommonDenomination": 5
+  },
+  {
+    "currencyCode": "cuc",
+    "englishCurrencyName": "Cuban Convertible Peso",
+    "localCurrencyName": "Peso cubano convertible",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇨🇺",
+    "languageCode": "es-CU",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "cup",
+    "englishCurrencyName": "Cuban Peso",
+    "localCurrencyName": "Peso cubano",
+    "currencySymbol": "₱",
+    "countryRegionFlagEmoji": "🇨🇺",
+    "languageCode": "es-CU",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "cve",
+    "englishCurrencyName": "Cape Verdean Escudo",
+    "localCurrencyName": "Escudo cabo-verdiano",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇨🇻",
+    "languageCode": "pt-CV",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "czk",
+    "englishCurrencyName": "Czech Koruna",
+    "localCurrencyName": "Koruna česká",
+    "currencySymbol": "Kč",
+    "countryRegionFlagEmoji": "🇨🇿",
+    "languageCode": "cs-CZ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "djf",
+    "englishCurrencyName": "Djiboutian Franc",
+    "localCurrencyName": "Franc Djiboutien",
+    "currencySymbol": "Fdj",
+    "countryRegionFlagEmoji": "🇩🇯",
+    "languageCode": "fr-DJ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "dkk",
+    "englishCurrencyName": "Danish Krone",
+    "localCurrencyName": "Dansk krone",
+    "currencySymbol": "kr.",
+    "countryRegionFlagEmoji": "🇩🇰",
+    "languageCode": "da-DK",
+    "smallestCommonDenomination": 0.5
+  },
+  {
+    "currencyCode": "dop",
+    "englishCurrencyName": "Dominican Peso",
+    "localCurrencyName": "Peso dominicano",
+    "currencySymbol": "RD$",
+    "countryRegionFlagEmoji": "🇩🇴",
+    "languageCode": "es-DO",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "dzd",
+    "englishCurrencyName": "Algerian Dinar",
+    "localCurrencyName": "دينار جزائري",
+    "currencySymbol": "د.ج",
+    "countryRegionFlagEmoji": "🇩🇿",
+    "languageCode": "ar-DZ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "egp",
+    "englishCurrencyName": "Egyptian Pound",
+    "localCurrencyName": "جنيه مصري",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇪🇬",
+    "languageCode": "ar-EG",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "ern",
+    "englishCurrencyName": "Eritrean Nakfa",
+    "localCurrencyName": "ናቕፋ",
+    "currencySymbol": "Nfk",
+    "countryRegionFlagEmoji": "🇪🇷",
+    "languageCode": "ti-ER",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "etb",
+    "englishCurrencyName": "Ethiopian Birr",
+    "localCurrencyName": "የኢትዮጵያ ብር",
+    "currencySymbol": "Br",
+    "countryRegionFlagEmoji": "🇪🇹",
+    "languageCode": "am-ET",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "eur",
+    "englishCurrencyName": "Euro",
+    "localCurrencyName": "Euro",
+    "currencySymbol": "€",
+    "countryRegionFlagEmoji": "🇪🇺",
+    "languageCode": "en-EU",
+    "smallestCommonDenomination": 0.01,
+    "acceptedCountries": [
+      "AT",
+      "BE",
+      "HR",
+      "CY",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PT",
+      "SK",
+      "SI",
+      "ES",
+      "AD",
+      "XK",
+      "MC",
+      "ME",
+      "SM",
+      "VA"
+    ]
+  },
+  {
+    "currencyCode": "fjd",
+    "englishCurrencyName": "Fijian Dollar",
+    "localCurrencyName": "Fiji Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇫🇯",
+    "languageCode": "en-FJ",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "fkp",
+    "englishCurrencyName": "Falkland Island Pound",
+    "localCurrencyName": "Falkland Islands Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇫🇰",
+    "languageCode": "en-FK",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gbp",
+    "englishCurrencyName": "British Pound",
+    "localCurrencyName": "Pound Sterling",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇬🇧",
+    "languageCode": "en-GB",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gel",
+    "englishCurrencyName": "Georgian Lari",
+    "localCurrencyName": "ლარი",
+    "currencySymbol": "₾",
+    "countryRegionFlagEmoji": "🇬🇪",
+    "languageCode": "ka-GE",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "ggp",
+    "englishCurrencyName": "Guernsey Pound",
+    "localCurrencyName": "Guernsey Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇬🇬",
+    "languageCode": "en-GG",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "ghs",
+    "englishCurrencyName": "Ghanaian Cedi",
+    "localCurrencyName": "Ghanaian Cedi",
+    "currencySymbol": "₵",
+    "countryRegionFlagEmoji": "🇬🇭",
+    "languageCode": "en-GH",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gip",
+    "englishCurrencyName": "Gibraltar Pound",
+    "localCurrencyName": "Gibraltar Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇬🇮",
+    "languageCode": "en-GI",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gmd",
+    "englishCurrencyName": "Gambian Dalasi",
+    "localCurrencyName": "Dalasi",
+    "currencySymbol": "D",
+    "countryRegionFlagEmoji": "🇬🇲",
+    "languageCode": "en-GM",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gnf",
+    "englishCurrencyName": "Guinean Franc",
+    "localCurrencyName": "Franc guinéen",
+    "currencySymbol": "FG",
+    "countryRegionFlagEmoji": "🇬🇳",
+    "languageCode": "fr-GN",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "gtq",
+    "englishCurrencyName": "Guatemalan Quetzal",
+    "localCurrencyName": "Quetzal guatemalteco",
+    "currencySymbol": "Q",
+    "countryRegionFlagEmoji": "🇬🇹",
+    "languageCode": "es-GT",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "gyd",
+    "englishCurrencyName": "Guyanese Dollar",
+    "localCurrencyName": "Guyanese Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇬🇾",
+    "languageCode": "en-GY",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "hkd",
+    "englishCurrencyName": "Hong Kong Dollar",
+    "localCurrencyName": "港元",
+    "currencySymbol": "HK$",
+    "countryRegionFlagEmoji": "🇭🇰",
+    "languageCode": "zh-HK",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "hnl",
+    "englishCurrencyName": "Honduran Lempira",
+    "localCurrencyName": "Lempira hondureña",
+    "currencySymbol": "L",
+    "countryRegionFlagEmoji": "🇭🇳",
+    "languageCode": "es-HN",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "htg",
+    "englishCurrencyName": "Haitian Gourde",
+    "localCurrencyName": "Gourde haïtienne",
+    "currencySymbol": "G",
+    "countryRegionFlagEmoji": "🇭🇹",
+    "languageCode": "ht-HT",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "huf",
+    "englishCurrencyName": "Hungarian Forint",
+    "localCurrencyName": "Magyar Forint",
+    "currencySymbol": "Ft",
+    "countryRegionFlagEmoji": "🇭🇺",
+    "languageCode": "hu-HU",
+    "smallestCommonDenomination": 5
+  },
+  {
+    "currencyCode": "idr",
+    "englishCurrencyName": "Indonesian Rupiah",
+    "localCurrencyName": "Rupiah Indonesia",
+    "currencySymbol": "Rp",
+    "countryRegionFlagEmoji": "🇮🇩",
+    "languageCode": "id-ID",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "ils",
+    "englishCurrencyName": "Israeli Shekel",
+    "localCurrencyName": "שקל חדש",
+    "currencySymbol": "₪",
+    "countryRegionFlagEmoji": "🇮🇱",
+    "languageCode": "he-IL",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "imp",
+    "englishCurrencyName": "Isle of Man Pound",
+    "localCurrencyName": "Manx Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇮🇲",
+    "languageCode": "en-IM",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "inr",
+    "englishCurrencyName": "Indian Rupee",
+    "localCurrencyName": "भारतीय रुपया",
+    "currencySymbol": "₹",
+    "countryRegionFlagEmoji": "🇮🇳",
+    "languageCode": "en-IN",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "iqd",
+    "englishCurrencyName": "Iraqi Dinar",
+    "localCurrencyName": "دينار عراقي",
+    "currencySymbol": "ع.د",
+    "countryRegionFlagEmoji": "🇮🇶",
+    "languageCode": "ar-IQ",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "irr",
+    "englishCurrencyName": "Iranian Rial",
+    "localCurrencyName": "ریال ایران",
+    "currencySymbol": "﷼",
+    "countryRegionFlagEmoji": "🇮🇷",
+    "languageCode": "fa-IR",
+    "smallestCommonDenomination": 1000
+  },
+  {
+    "currencyCode": "isk",
+    "englishCurrencyName": "Icelandic Krona",
+    "localCurrencyName": "Íslensk króna",
+    "currencySymbol": "kr",
+    "countryRegionFlagEmoji": "🇮🇸",
+    "languageCode": "is-IS",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "jep",
+    "englishCurrencyName": "Jersey Pound",
+    "localCurrencyName": "Jersey Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇯🇪",
+    "languageCode": "en-JE",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "jmd",
+    "englishCurrencyName": "Jamaican Dollar",
+    "localCurrencyName": "Jamaican Dollar",
+    "currencySymbol": "J$",
+    "countryRegionFlagEmoji": "🇯🇲",
+    "languageCode": "en-JM",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "jod",
+    "englishCurrencyName": "Jordanian Dinar",
+    "localCurrencyName": "دينار أردني",
+    "currencySymbol": "د.ا",
+    "countryRegionFlagEmoji": "🇯🇴",
+    "languageCode": "ar-JO",
+    "smallestCommonDenomination": 0.005
+  },
+  {
+    "currencyCode": "jpy",
+    "englishCurrencyName": "Japanese Yen",
+    "localCurrencyName": "日本円",
+    "currencySymbol": "¥",
+    "countryRegionFlagEmoji": "🇯🇵",
+    "languageCode": "ja-JP",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "kes",
+    "englishCurrencyName": "Kenyan Shilling",
+    "localCurrencyName": "Shilingi ya Kenya",
+    "currencySymbol": "KSh",
+    "countryRegionFlagEmoji": "🇰🇪",
+    "languageCode": "sw-KE",
+    "smallestCommonDenomination": 0.5
+  },
+  {
+    "currencyCode": "kgs",
+    "englishCurrencyName": "Kyrgyzstani Som",
+    "localCurrencyName": "Кыргыз Сому",
+    "currencySymbol": "с",
+    "countryRegionFlagEmoji": "🇰🇬",
+    "languageCode": "ky-KG",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "khr",
+    "englishCurrencyName": "Cambodian Riel",
+    "localCurrencyName": "រៀល",
+    "currencySymbol": "៛",
+    "countryRegionFlagEmoji": "🇰🇭",
+    "languageCode": "km-KH",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "kmf",
+    "englishCurrencyName": "Comorian Franc",
+    "localCurrencyName": "Franc comorien",
+    "currencySymbol": "CF",
+    "countryRegionFlagEmoji": "🇰🇲",
+    "languageCode": "fr-KM",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "kpw",
+    "englishCurrencyName": "North Korean Won",
+    "localCurrencyName": "조선 원",
+    "currencySymbol": "₩",
+    "countryRegionFlagEmoji": "🇰🇵",
+    "languageCode": "ko-KP",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "krw",
+    "englishCurrencyName": "South Korean Won",
+    "localCurrencyName": "대한민국 원",
+    "currencySymbol": "₩",
+    "countryRegionFlagEmoji": "🇰🇷",
+    "languageCode": "ko-KR",
+    "smallestCommonDenomination": 10
+  },
+  {
+    "currencyCode": "kwd",
+    "englishCurrencyName": "Kuwaiti Dinar",
+    "localCurrencyName": "دينار كويتي",
+    "currencySymbol": "د.ك",
+    "countryRegionFlagEmoji": "🇰🇼",
+    "languageCode": "ar-KW",
+    "smallestCommonDenomination": 0.005
+  },
+  {
+    "currencyCode": "kyd",
+    "englishCurrencyName": "Caymanian Dollar",
+    "localCurrencyName": "Cayman Islands Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇰🇾",
+    "languageCode": "en-KY",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "kzt",
+    "englishCurrencyName": "Kazakhstani Tenge",
+    "localCurrencyName": "Қазақстан теңгесі",
+    "currencySymbol": "₸",
+    "countryRegionFlagEmoji": "🇰🇿",
+    "languageCode": "kk-KZ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "lak",
+    "englishCurrencyName": "Lao Kip",
+    "localCurrencyName": "₭",
+    "currencySymbol": "₭",
+    "countryRegionFlagEmoji": "🇱🇦",
+    "languageCode": "lo-LA",
+    "smallestCommonDenomination": 10
+  },
+  {
+    "currencyCode": "lbp",
+    "englishCurrencyName": "Lebanese Pound",
+    "localCurrencyName": "ليرة لبنانية",
+    "currencySymbol": "ل.ل",
+    "countryRegionFlagEmoji": "🇱🇧",
+    "languageCode": "ar-LB",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "lkr",
+    "englishCurrencyName": "Sri Lankan Rupee",
+    "localCurrencyName": "ශ්‍රී ලංකා රුපියල",
+    "currencySymbol": "Rs",
+    "countryRegionFlagEmoji": "🇱🇰",
+    "languageCode": "si-LK",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "lrd",
+    "englishCurrencyName": "Liberian Dollar",
+    "localCurrencyName": "Liberian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇱🇷",
+    "languageCode": "en-LR",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "lsl",
+    "englishCurrencyName": "Basotho Loti",
+    "localCurrencyName": "Loti",
+    "currencySymbol": "L",
+    "countryRegionFlagEmoji": "🇱🇸",
+    "languageCode": "st-LS",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "lyd",
+    "englishCurrencyName": "Libyan Dinar",
+    "localCurrencyName": "دينار ليبي",
+    "currencySymbol": "ل.د",
+    "countryRegionFlagEmoji": "🇱🇾",
+    "languageCode": "ar-LY",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "mad",
+    "englishCurrencyName": "Moroccan Dirham",
+    "localCurrencyName": "درهم مغربي",
+    "currencySymbol": "د.م.",
+    "countryRegionFlagEmoji": "🇲🇦",
+    "languageCode": "ar-MA",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "mdl",
+    "englishCurrencyName": "Moldovan Leu",
+    "localCurrencyName": "Leu moldovenesc",
+    "currencySymbol": "L",
+    "countryRegionFlagEmoji": "🇲🇩",
+    "languageCode": "ro-MD",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "mga",
+    "englishCurrencyName": "Malagasy Ariary",
+    "localCurrencyName": "Ariary malagasy",
+    "currencySymbol": "Ar",
+    "countryRegionFlagEmoji": "🇲🇬",
+    "languageCode": "mg-MG",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mkd",
+    "englishCurrencyName": "Macedonian Denar",
+    "localCurrencyName": "Македонски денар",
+    "currencySymbol": "ден",
+    "countryRegionFlagEmoji": "🇲🇰",
+    "languageCode": "mk-MK",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mmk",
+    "englishCurrencyName": "Burmese Kyat",
+    "localCurrencyName": "မြန်မာကျပ်",
+    "currencySymbol": "Ks",
+    "countryRegionFlagEmoji": "🇲🇲",
+    "languageCode": "my-MM",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mnt",
+    "englishCurrencyName": "Mongolian Tughrik",
+    "localCurrencyName": "Монгол төгрөг",
+    "currencySymbol": "₮",
+    "countryRegionFlagEmoji": "🇲🇳",
+    "languageCode": "mn-MN",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mop",
+    "englishCurrencyName": "Macau Pataca",
+    "localCurrencyName": "澳門圓",
+    "currencySymbol": "MOP$",
+    "countryRegionFlagEmoji": "🇲🇴",
+    "languageCode": "zh-MO",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "mru",
+    "englishCurrencyName": "Mauritanian Ouguiya",
+    "localCurrencyName": "أوقية موريتانية",
+    "currencySymbol": "UM",
+    "countryRegionFlagEmoji": "🇲🇷",
+    "languageCode": "ar-MR",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mur",
+    "englishCurrencyName": "Mauritian Rupee",
+    "localCurrencyName": "Mauritian Rupee",
+    "currencySymbol": "₨",
+    "countryRegionFlagEmoji": "🇲🇺",
+    "languageCode": "en-MU",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mvr",
+    "englishCurrencyName": "Maldivian Rufiyaa",
+    "localCurrencyName": "ދިވެހި ރުފިޔާ",
+    "currencySymbol": "Rf",
+    "countryRegionFlagEmoji": "🇲🇻",
+    "languageCode": "dv-MV",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mwk",
+    "englishCurrencyName": "Malawian Kwacha",
+    "localCurrencyName": "Malawian Kwacha",
+    "currencySymbol": "MK",
+    "countryRegionFlagEmoji": "🇲🇼",
+    "languageCode": "en-MW",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "mxn",
+    "englishCurrencyName": "Mexican Peso",
+    "localCurrencyName": "Peso mexicano",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇲🇽",
+    "languageCode": "es-MX",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "myr",
+    "englishCurrencyName": "Malaysian Ringgit",
+    "localCurrencyName": "Ringgit Malaysia",
+    "currencySymbol": "RM",
+    "countryRegionFlagEmoji": "🇲🇾",
+    "languageCode": "ms-MY",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "mzn",
+    "englishCurrencyName": "Mozambican Metical",
+    "localCurrencyName": "Metical moçambicano",
+    "currencySymbol": "MT",
+    "countryRegionFlagEmoji": "🇲🇿",
+    "languageCode": "pt-MZ",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "nad",
+    "englishCurrencyName": "Namibian Dollar",
+    "localCurrencyName": "Namibian Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇳🇦",
+    "languageCode": "en-NA",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "ngn",
+    "englishCurrencyName": "Nigerian Naira",
+    "localCurrencyName": "Naira Najeriya",
+    "currencySymbol": "₦",
+    "countryRegionFlagEmoji": "🇳🇬",
+    "languageCode": "en-NG",
+    "smallestCommonDenomination": 0.5
+  },
+  {
+    "currencyCode": "nio",
+    "englishCurrencyName": "Nicaraguan Cordoba",
+    "localCurrencyName": "Córdoba nicaragüense",
+    "currencySymbol": "C$",
+    "countryRegionFlagEmoji": "🇳🇮",
+    "languageCode": "es-NI",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "nok",
+    "englishCurrencyName": "Norwegian Krone",
+    "localCurrencyName": "Norsk krone",
+    "currencySymbol": "kr",
+    "countryRegionFlagEmoji": "🇳🇴",
+    "languageCode": "nb-NO",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "npr",
+    "englishCurrencyName": "Nepalese Rupee",
+    "localCurrencyName": "नेपाली रुपैयाँ",
+    "currencySymbol": "₨",
+    "countryRegionFlagEmoji": "🇳🇵",
+    "languageCode": "ne-NP",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "nzd",
+    "englishCurrencyName": "New Zealand Dollar",
+    "localCurrencyName": "New Zealand Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇳🇿",
+    "languageCode": "en-NZ",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "omr",
+    "englishCurrencyName": "Omani Rial",
+    "localCurrencyName": "ريال عماني",
+    "currencySymbol": "ر.ع.",
+    "countryRegionFlagEmoji": "🇴🇲",
+    "languageCode": "ar-OM",
+    "smallestCommonDenomination": 0.005
+  },
+  {
+    "currencyCode": "pab",
+    "englishCurrencyName": "Panamanian Balboa",
+    "localCurrencyName": "Balboa panameño",
+    "currencySymbol": "B/.",
+    "countryRegionFlagEmoji": "🇵🇦",
+    "languageCode": "es-PA",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "pen",
+    "englishCurrencyName": "Peruvian Sol",
+    "localCurrencyName": "Sol peruano",
+    "currencySymbol": "S/.",
+    "countryRegionFlagEmoji": "🇵🇪",
+    "languageCode": "es-PE",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "pgk",
+    "englishCurrencyName": "Papua New Guinean Kina",
+    "localCurrencyName": "Papua New Guinean Kina",
+    "currencySymbol": "K",
+    "countryRegionFlagEmoji": "🇵🇬",
+    "languageCode": "en-PG",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "php",
+    "englishCurrencyName": "Philippine Peso",
+    "localCurrencyName": "Piso filipino",
+    "currencySymbol": "₱",
+    "countryRegionFlagEmoji": "🇵🇭",
+    "languageCode": "en-PH",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "pkr",
+    "englishCurrencyName": "Pakistani Rupee",
+    "localCurrencyName": "پاکستانی روپیہ",
+    "currencySymbol": "₨",
+    "countryRegionFlagEmoji": "🇵🇰",
+    "languageCode": "ur-PK",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "pln",
+    "englishCurrencyName": "Polish Zloty",
+    "localCurrencyName": "Złoty polski",
+    "currencySymbol": "zł",
+    "countryRegionFlagEmoji": "🇵🇱",
+    "languageCode": "pl-PL",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "pyg",
+    "englishCurrencyName": "Paraguayan Guarani",
+    "localCurrencyName": "Guaraní paraguayo",
+    "currencySymbol": "₲",
+    "countryRegionFlagEmoji": "🇵🇾",
+    "languageCode": "es-PY",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "qar",
+    "englishCurrencyName": "Qatari Riyal",
+    "localCurrencyName": "ريال قطري",
+    "currencySymbol": "ر.ق",
+    "countryRegionFlagEmoji": "🇶🇦",
+    "languageCode": "ar-QA",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "ron",
+    "englishCurrencyName": "Romanian Leu",
+    "localCurrencyName": "Leu românesc",
+    "currencySymbol": "L",
+    "countryRegionFlagEmoji": "🇷🇴",
+    "languageCode": "ro-RO",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "rsd",
+    "englishCurrencyName": "Serbian Dinar",
+    "localCurrencyName": "Српски динар",
+    "currencySymbol": "дин.",
+    "countryRegionFlagEmoji": "🇷🇸",
+    "languageCode": "sr-RS",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "rub",
+    "englishCurrencyName": "Russian Ruble",
+    "localCurrencyName": "Российский рубль",
+    "currencySymbol": "₽",
+    "countryRegionFlagEmoji": "🇷🇺",
+    "languageCode": "ru-RU",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "rwf",
+    "englishCurrencyName": "Rwandan Franc",
+    "localCurrencyName": "Rwandan Franc",
+    "currencySymbol": "Frw",
+    "countryRegionFlagEmoji": "🇷🇼",
+    "languageCode": "rw-RW",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "sar",
+    "englishCurrencyName": "Saudi Arabian Riyal",
+    "localCurrencyName": "ريال سعودي",
+    "currencySymbol": "ر.س",
+    "countryRegionFlagEmoji": "🇸🇦",
+    "languageCode": "ar-SA",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "sbd",
+    "englishCurrencyName": "Solomon Islander Dollar",
+    "localCurrencyName": "Solomon Islands Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇸🇧",
+    "languageCode": "en-SB",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "scr",
+    "englishCurrencyName": "Seychellois Rupee",
+    "localCurrencyName": "Seychellois Rupee",
+    "currencySymbol": "₨",
+    "countryRegionFlagEmoji": "🇸🇨",
+    "languageCode": "en-SC",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "sdg",
+    "englishCurrencyName": "Sudanese Pound",
+    "localCurrencyName": "جنيه سوداني",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇸🇩",
+    "languageCode": "ar-SD",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "sek",
+    "englishCurrencyName": "Swedish Krona",
+    "localCurrencyName": "Svensk krona",
+    "currencySymbol": "kr",
+    "countryRegionFlagEmoji": "🇸🇪",
+    "languageCode": "sv-SE",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "sgd",
+    "englishCurrencyName": "Singapore Dollar",
+    "localCurrencyName": "Singapore Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇸🇬",
+    "languageCode": "en-SG",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "shp",
+    "englishCurrencyName": "Saint Helenian Pound",
+    "localCurrencyName": "Saint Helena Pound",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇸🇭",
+    "languageCode": "en-SH",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "sos",
+    "englishCurrencyName": "Somali Shilling",
+    "localCurrencyName": "Soomaalishilin",
+    "currencySymbol": "Sh.So.",
+    "countryRegionFlagEmoji": "🇸🇴",
+    "languageCode": "so-SO",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "srd",
+    "englishCurrencyName": "Surinamese Dollar",
+    "localCurrencyName": "Surinaamse Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇸🇷",
+    "languageCode": "nl-SR",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "stn",
+    "englishCurrencyName": "Sao Tomean Dobra",
+    "localCurrencyName": "Dobra de São Tomé e Príncipe",
+    "currencySymbol": "Db",
+    "countryRegionFlagEmoji": "🇸🇹",
+    "languageCode": "pt-ST",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "svc",
+    "englishCurrencyName": "Salvadoran Colon",
+    "localCurrencyName": "Colón salvadoreño",
+    "currencySymbol": "₡",
+    "countryRegionFlagEmoji": "🇸🇻",
+    "languageCode": "es-SV",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "syp",
+    "englishCurrencyName": "Syrian Pound",
+    "localCurrencyName": "ليرة سورية",
+    "currencySymbol": "£",
+    "countryRegionFlagEmoji": "🇸🇾",
+    "languageCode": "ar-SY",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "szl",
+    "englishCurrencyName": "Swazi Lilangeni",
+    "localCurrencyName": "Lilangeni",
+    "currencySymbol": "E",
+    "countryRegionFlagEmoji": "🇸🇿",
+    "languageCode": "en-SZ",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "thb",
+    "englishCurrencyName": "Thai Baht",
+    "localCurrencyName": "บาท",
+    "currencySymbol": "฿",
+    "countryRegionFlagEmoji": "🇹🇭",
+    "languageCode": "th-TH",
+    "smallestCommonDenomination": 0.25
+  },
+  {
+    "currencyCode": "tjs",
+    "englishCurrencyName": "Tajikistani Somoni",
+    "localCurrencyName": "Сомонӣ",
+    "currencySymbol": "SM",
+    "countryRegionFlagEmoji": "🇹🇯",
+    "languageCode": "tg-TJ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "tmt",
+    "englishCurrencyName": "Turkmenistani Manat",
+    "localCurrencyName": "Türkmen manady",
+    "currencySymbol": "m",
+    "countryRegionFlagEmoji": "🇹🇲",
+    "languageCode": "tk-TM",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "tnd",
+    "englishCurrencyName": "Tunisian Dinar",
+    "localCurrencyName": "دينار تونسي",
+    "currencySymbol": "د.ت",
+    "countryRegionFlagEmoji": "🇹🇳",
+    "languageCode": "ar-TN",
+    "smallestCommonDenomination": 0.005
+  },
+  {
+    "currencyCode": "top",
+    "englishCurrencyName": "Tongan Pa'anga",
+    "localCurrencyName": "Paʻanga",
+    "currencySymbol": "T$",
+    "countryRegionFlagEmoji": "🇹🇴",
+    "languageCode": "to-TO",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "try",
+    "englishCurrencyName": "Turkish Lira",
+    "localCurrencyName": "Türk Lirası",
+    "currencySymbol": "₺",
+    "countryRegionFlagEmoji": "🇹🇷",
+    "languageCode": "tr-TR",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "ttd",
+    "englishCurrencyName": "Trinidadian Dollar",
+    "localCurrencyName": "Trinidad and Tobago Dollar",
+    "currencySymbol": "TT$",
+    "countryRegionFlagEmoji": "🇹🇹",
+    "languageCode": "en-TT",
+    "smallestCommonDenomination": 0.05
+  },
+  {
+    "currencyCode": "tvd",
+    "englishCurrencyName": "Tuvaluan Dollar",
+    "localCurrencyName": "Tuvaluan Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇹🇻",
+    "languageCode": "en-TV",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "twd",
+    "englishCurrencyName": "Taiwan New Dollar",
+    "localCurrencyName": "新臺幣",
+    "currencySymbol": "NT$",
+    "countryRegionFlagEmoji": "🇹🇼",
+    "languageCode": "zh-TW",
+    "smallestCommonDenomination": 0.5
+  },
+  {
+    "currencyCode": "tzs",
+    "englishCurrencyName": "Tanzanian Shilling",
+    "localCurrencyName": "Shilingi ya Tanzania",
+    "currencySymbol": "Sh",
+    "countryRegionFlagEmoji": "🇹🇿",
+    "languageCode": "sw-TZ",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "uah",
+    "englishCurrencyName": "Ukrainian Hryvnia",
+    "localCurrencyName": "Українська гривня",
+    "currencySymbol": "₴",
+    "countryRegionFlagEmoji": "🇺🇦",
+    "languageCode": "uk-UA",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "ugx",
+    "englishCurrencyName": "Ugandan Shilling",
+    "localCurrencyName": "Ugandan Shilling",
+    "currencySymbol": "USh",
+    "countryRegionFlagEmoji": "🇺🇬",
+    "languageCode": "en-UG",
+    "smallestCommonDenomination": 50
+  },
+  {
+    "currencyCode": "usd",
+    "englishCurrencyName": "US Dollar",
+    "localCurrencyName": "US Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇺🇸",
+    "languageCode": "en-US",
+    "smallestCommonDenomination": 0.01
+  },
+  {
+    "currencyCode": "uyu",
+    "englishCurrencyName": "Uruguayan Peso",
+    "localCurrencyName": "Peso uruguayo",
+    "currencySymbol": "$U",
+    "countryRegionFlagEmoji": "🇺🇾",
+    "languageCode": "es-UY",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "uzs",
+    "englishCurrencyName": "Uzbekistani Som",
+    "localCurrencyName": "Ўзбек сўми",
+    "currencySymbol": "Soʻm",
+    "countryRegionFlagEmoji": "🇺🇿",
+    "languageCode": "uz-UZ",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "vnd",
+    "englishCurrencyName": "Vietnamese Dong",
+    "localCurrencyName": "Đồng Việt Nam",
+    "currencySymbol": "₫",
+    "countryRegionFlagEmoji": "🇻🇳",
+    "languageCode": "vi-VN",
+    "smallestCommonDenomination": 1000
+  },
+  {
+    "currencyCode": "vuv",
+    "englishCurrencyName": "Ni-Vanuatu Vatu",
+    "localCurrencyName": "Vatu",
+    "currencySymbol": "Vt",
+    "countryRegionFlagEmoji": "🇻🇺",
+    "languageCode": "bi-VU",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "wst",
+    "englishCurrencyName": "Samoan Tala",
+    "localCurrencyName": "Samoan Tala",
+    "currencySymbol": "T",
+    "countryRegionFlagEmoji": "🇼🇸",
+    "languageCode": "sm-WS",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "xaf",
+    "englishCurrencyName": "Central African CFA Franc BEAC",
+    "localCurrencyName": "Franc CFA",
+    "currencySymbol": "FCFA",
+    "countryRegionFlagEmoji": "🇨🇫",
+    "languageCode": "fr-CF",
+    "smallestCommonDenomination": 1,
+    "acceptedCountries": ["CM", "CF", "TD", "CG", "GQ", "GA"]
+  },
+  {
+    "currencyCode": "xcd",
+    "englishCurrencyName": "East Caribbean Dollar",
+    "localCurrencyName": "East Caribbean Dollar",
+    "currencySymbol": "$",
+    "countryRegionFlagEmoji": "🇦🇬",
+    "languageCode": "en-AG",
+    "smallestCommonDenomination": 0.01,
+    "acceptedCountries": ["AI", "AG", "DM", "GD", "MS", "KN", "LC", "VC"]
+  },
+  {
+    "currencyCode": "xof",
+    "englishCurrencyName": "CFA Franc",
+    "localCurrencyName": "Franc CFA",
+    "currencySymbol": "FCFA",
+    "countryRegionFlagEmoji": "🇧🇯",
+    "languageCode": "fr-BJ",
+    "smallestCommonDenomination": 1,
+    "acceptedCountries": ["BJ", "BF", "CI", "GW", "ML", "NE", "SN", "TG"]
+  },
+  {
+    "currencyCode": "xpf",
+    "englishCurrencyName": "CFP Franc",
+    "localCurrencyName": "Franc Pacifique",
+    "currencySymbol": "₣",
+    "countryRegionFlagEmoji": "🇵🇫",
+    "languageCode": "fr-PF",
+    "smallestCommonDenomination": 1,
+    "acceptedCountries": ["PF", "NC", "WF"]
+  },
+  {
+    "currencyCode": "yer",
+    "englishCurrencyName": "Yemeni Rial",
+    "localCurrencyName": "ريال يمني",
+    "currencySymbol": "﷼",
+    "countryRegionFlagEmoji": "🇾🇪",
+    "languageCode": "ar-YE",
+    "smallestCommonDenomination": 1
+  },
+  {
+    "currencyCode": "zar",
+    "englishCurrencyName": "South African Rand",
+    "localCurrencyName": "South African Rand",
+    "currencySymbol": "R",
+    "countryRegionFlagEmoji": "🇿🇦",
+    "languageCode": "en-ZA",
+    "smallestCommonDenomination": 0.1
+  },
+  {
+    "currencyCode": "zmw",
+    "englishCurrencyName": "Zambian Kwacha",
+    "localCurrencyName": "Zambian Kwacha",
+    "currencySymbol": "ZK",
+    "countryRegionFlagEmoji": "🇿🇲",
+    "languageCode": "en-ZM",
+    "smallestCommonDenomination": 0.05
+  }
+]

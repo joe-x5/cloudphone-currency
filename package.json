@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "esbuild": "0.25.6",
+    "prettier": "3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "name": "cloudphone-currency",
+  "version": "1.0.0",
+  "description": "Currency converter for Cloud Phone keypad phones",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle src/index.ts --minify --drop:console --analyze --target=chrome128 --outfile=public/js/index.min.js",
+    "dev": "esbuild --watch --bundle src/index.ts --sourcemap --target=chrome128 --serve --outfile=public/js/index.js --servedir=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cloudmosa/cloudphone-currency.git"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "typescript",
+    "javascript",
+    "cloud",
+    "phone"
+  ],
+  "author": "Tom Barrasso",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cloudmosa/cloudphone-currency/issues"
+  },
+  "homepage": "https://github.com/cloudmosa/cloudphone-currency#readme"
+}
