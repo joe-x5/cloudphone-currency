@@ -1,11 +1,7 @@
-import {
-  findCurrency,
-  formatFromCode,
-  getCountryCode,
-} from "./data/currencies";
+import { findCurrency, getCountryCode } from "./data/currencies";
 import { exchange, USDExchangeRateResponse } from "./exchangeApi";
 import { CurrencyCode } from "./data/currency";
-import { _, CONTROL_KEYS, getRandomInteger, NON_DIGITS } from "./utils";
+import { _ } from "./utils";
 import {
   CURRENCIES_REVERSED,
   CurrenciesReversedEvent,
@@ -15,12 +11,7 @@ import {
   CurrencySelectedEvent,
 } from "./events";
 import { selectCurrency, showCurrencyList } from "./currencyList";
-
-const currencyInput1 = _("currency1") as HTMLInputElement;
-const currencyInput2 = _("currency2") as HTMLInputElement;
-const currencyLabel1 = _("currency1-label") as HTMLLabelElement;
-const currencyLabel2 = _("currency2-label") as HTMLLabelElement;
-const reverseButton = _("reverse") as HTMLButtonElement;
+import { CurrencyInput } from "./currencyInput";
 
 type InputIndex = 1 | 2;
 
@@ -31,6 +22,25 @@ let currency2: CurrencyCode = "inr";
 let quantity1 = 0;
 let quantity2 = 0;
 let exchangeRates: USDExchangeRateResponse | null = null;
+
+// Create and append custom elements (after registration)
+const currencyContainer1 = _("currency-container1");
+const currencyContainer2 = _("currency-container2");
+const currencyInput1 = new CurrencyInput();
+const currencyInput2 = new CurrencyInput();
+
+[currencyInput1, currencyInput2].forEach((el, i) => {
+  el.setAttribute("id", `currency${i+1}`);
+  el.setAttribute("name", `currency${i+1}`);
+  el.currency = (i === 0) ? currency1 : currency2;
+});
+
+currencyContainer1?.appendChild(currencyInput1);
+currencyContainer2?.appendChild(currencyInput2);
+
+const currencyLabel1 = _("currency1-label") as HTMLLabelElement;
+const currencyLabel2 = _("currency2-label") as HTMLLabelElement;
+const reverseButton = _("reverse") as HTMLButtonElement;
 
 const stateMap = {
   1: () => ({
@@ -52,10 +62,16 @@ const setCurrencyState = (
   updates: Partial<{ currency: CurrencyCode; quantity: number }>,
 ) => {
   if (index === 1) {
-    if (updates.currency) currency1 = updates.currency;
+    if (updates.currency) {
+      currency1 = updates.currency;
+      stateMap[index]().input.currency = currency1;
+    }
     if (updates.quantity != null) quantity1 = updates.quantity;
   } else {
-    if (updates.currency) currency2 = updates.currency;
+    if (updates.currency) {
+      currency2 = updates.currency;
+      stateMap[index]().input.currency = currency2;
+    }
     if (updates.quantity != null) quantity2 = updates.quantity;
   }
 };
@@ -72,12 +88,12 @@ function updateUI() {
     exchangeRates,
   );
 
-  target.input.value = formatFromCode(result, target.currency);
+  target.input.value = result;
   setCurrencyState(targetIdx as InputIndex, { quantity: result });
 }
 
 function handleInputChange(event: KeyboardEvent) {
-  const input = event.currentTarget as HTMLInputElement;
+  const input = event.currentTarget as CurrencyInput;
 
   switch (event.key) {
     case "ArrowDown":
@@ -93,13 +109,9 @@ function handleInputChange(event: KeyboardEvent) {
 
   const index = input === currencyInput1 ? 1 : 2;
   focusIndex = index;
-  const value = input.value.replace(NON_DIGITS, "").replace(",", ".");
-  const numeric = parseFloat(value);
 
-  if (!isNaN(numeric)) {
-    setCurrencyState(index, { quantity: numeric });
-    updateUI();
-  }
+  setCurrencyState(index, { quantity: input.value });
+  updateUI();
 }
 
 const handleFocus = (e: FocusEvent) =>
@@ -107,26 +119,9 @@ const handleFocus = (e: FocusEvent) =>
 
 const handleBlur = (e: FocusEvent) => {
   const index = e.currentTarget === currencyInput1 ? 1 : 2;
-  const { quantity, currency, input } = stateMap[index]();
-  input.value = formatFromCode(quantity, currency);
+  const { quantity, input } = stateMap[index]();
+  input.value = quantity;
 };
-
-function handleKeyDown(event: KeyboardEvent) {
-  const input = event.currentTarget as HTMLInputElement;
-  const value = input.value;
-
-  if (CONTROL_KEYS.has(event.key) || (event.key >= "0" && event.key <= "9"))
-    return;
-
-  if (
-    (event.key === "." || event.key === ",") &&
-    !value.includes(".") &&
-    !value.includes(",")
-  )
-    return;
-
-  event.preventDefault();
-}
 
 function updateLabel(label: HTMLLabelElement, code: CurrencyCode) {
   const currency = findCurrency(code);
@@ -135,34 +130,21 @@ function updateLabel(label: HTMLLabelElement, code: CurrencyCode) {
   label.innerHTML = `${code.toUpperCase()} <i class="fflag fflag-${country} ff-round ff-md"></i>`;
 }
 
-function updatePlaceholders() {
-  if (!exchangeRates) return;
-  const min = Math.max(
-    1,
-    findCurrency(currency1)?.smallestCommonDenomination ?? 0,
-  );
-  const inputQty = getRandomInteger(min * 5, min * 500);
-  const outputQty = exchange(inputQty, currency1, currency2, exchangeRates);
-
-  currencyInput1.placeholder = formatFromCode(inputQty, currency1);
-  currencyInput2.placeholder = formatFromCode(outputQty, currency2);
-}
-
 export function reverseCurrencies() {
+  // Flip values
   [currency1, currency2] = [currency2, currency1];
   [quantity1, quantity2] = [quantity2, quantity1];
-  [currencyInput1.placeholder, currencyInput2.placeholder] = [
-    currencyInput2.placeholder,
-    currencyInput1.placeholder,
-  ];
 
   updateLabel(currencyLabel1, currency1);
   updateLabel(currencyLabel2, currency2);
 
+  // Update input (if user has typed value)
   const hasInput = currencyInput1.value || currencyInput2.value;
   if (hasInput) {
-    currencyInput1.value = formatFromCode(quantity1, currency1);
-    currencyInput2.value = formatFromCode(quantity2, currency2);
+    currencyInput1.value = quantity1;
+    currencyInput2.value = quantity2;
+    currencyInput1.currency = currency1;
+    currencyInput2.currency = currency2;
   }
 
   window.dispatchEvent(
@@ -184,9 +166,8 @@ function onCurrencyLabelClick(e: Event) {
 
 function bindInputs() {
   [currencyInput1, currencyInput2].forEach((input) => {
-    input.value = "";
+    input.value = 0;
     input.addEventListener("keyup", handleInputChange);
-    input.addEventListener("keydown", handleKeyDown);
     input.addEventListener("focus", handleFocus);
     input.addEventListener("blur", handleBlur);
   });
@@ -208,7 +189,6 @@ export function setCurrency(index: InputIndex, newCode: CurrencyCode) {
   setCurrencyState(index, { currency: newCode });
   updateLabel(stateMap[index]().label, newCode);
   updateUI();
-  updatePlaceholders();
 
   window.dispatchEvent(
     new CustomEvent<CurrencyChangedEvent>(CURRENCY_CHANGED, {
@@ -220,6 +200,5 @@ export function setCurrency(index: InputIndex, newCode: CurrencyCode) {
 export function setup(rates: USDExchangeRateResponse) {
   exchangeRates = rates;
   bindInputs();
-  updatePlaceholders();
   window.addEventListener(CURRENCY_SELECTED, onCurrencySelected);
 }

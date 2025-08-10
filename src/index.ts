@@ -5,6 +5,7 @@ import {
   exchangeFormatted,
 } from "./exchangeApi";
 import { setup } from "./input";
+import "./currencyInput";
 
 let exchangeRates: USDExchangeRateResponse | undefined = undefined;
 
