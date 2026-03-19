@@ -1,0 +1,84 @@
+footer {
+  width: 100vw;
+  display: flex;
+  white-space: nowrap;
+  background: black;
+  color: white;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+footer > div {
+  flex: 0 1 33.3%;
+  display: inline-block;
+  vertical-align: middle;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+footer > div:first-child > svg:last-child {
+  display: none;
+}
+
+footer > div:first-child[data-state="list"] > svg:last-child {
+  display: inline;
+}
+
+footer > div:first-child[data-state="list"] > svg:first-child {
+  display: none;
+}
+
+/* QVGA (or bigger) */
+@media only screen and (min-width: 129px) {
+  footer {
+    height: 36px;
+  }
+
+  footer > div svg {
+    transform: scale(1.5);
+  }
+
+  footer > div {
+    padding: 0 8pt;
+  }
+}
+
+/* QQVGA */
+@media only screen and (max-width: 128px) {
+  footer {
+    height: 20px;
+  }
+
+  footer > div {
+    padding: 0 2pt;
+  }
+}
+
+footer > div > svg {
+  height: 100%;
+}
+
+footer > div[aria-disabled="true"] {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+footer > div:nth-child(1) {
+  align-content: start;
+  text-align: start;
+}
+
+footer > div:nth-child(2) {
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+footer > div:nth-child(3) {
+  align-content: end;
+  text-align: end;
+}

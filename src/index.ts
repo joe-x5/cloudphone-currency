@@ -1,35 +1,31 @@
-import { populateList } from "./currencyList";
-import {
-  fetchUSDExchangeRates,
-  USDExchangeRateResponse,
-  exchangeFormatted,
-} from "./exchangeApi";
-import { setup } from "./input";
-import "./currencyInput";
-
-let exchangeRates: USDExchangeRateResponse | undefined = undefined;
-
-async function fetchLatestRates() {
-  if (exchangeRates !== undefined) return exchangeRates;
-
-  try {
-    exchangeRates = await fetchUSDExchangeRates();
-    return exchangeRates;
-  } catch (e) {
-    console.warn(e);
-    // TODO: display error
-  }
-}
+import { populateList } from "./pages/currencyList";
+import { fetchUSDExchangeRates } from "./api/exchangeRates";
+import { finishSetup, setup } from "./input";
+import "./components/currencyInput";
+import "./index.css";
+import { _ } from "./helpers/utils";
+import { setupAboutContent } from "./pages/about";
 
 populateList();
+
+const splash = _("splash") as HTMLDivElement;
 
 fetchUSDExchangeRates()
   .then((rates) => {
     console.log(rates);
     if (!rates) return;
 
+    // Clear splash screen and update UI
     setup(rates);
+    setupAboutContent(rates.date);
+    requestAnimationFrame(() => {
+      splash.remove();
+
+      // Avoids pending Enter event
+      requestAnimationFrame(finishSetup);
+    });
   })
+  // TODO: error screen
   .catch((e) => console.warn(e));
 
 document.documentElement.classList.remove("no-js");

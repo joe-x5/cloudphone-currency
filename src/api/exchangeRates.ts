@@ -1,6 +1,6 @@
-import { formatFromCode } from "./data/currencies";
-import { CurrencyCode } from "./data/currency";
-import { IsoDateString } from "./date";
+import { formatFromCode } from "../data/currencies";
+import { CurrencyCode } from "../data/currency";
+import { IsoDateString } from "../helpers/date";
 
 // API Version
 const V1 = "v1";
@@ -11,6 +11,15 @@ export type ApiVersion = typeof V1;
 const LATEST = "latest";
 
 export type ExchangeRateDate = typeof LATEST | IsoDateString;
+
+// Important: don't cache the response, always get latest rates
+const FETCH_REQUEST_INIT: RequestInit = {
+  cache: "no-store",
+  credentials: "omit",
+  mode: "cors",
+  priority: "high",
+  referrerPolicy: "no-referrer",
+};
 
 function fetchWithFallback(
   endpoint: string,
@@ -25,9 +34,19 @@ function fetchWithFallback(
     `https://${date}.currency-api.pages.dev/${apiVersion}/${endpoint}`,
   );
 
-  return fetch(JSDELIVR_URL)
-    .catch(() => fetch(CLOUDFLARE_URL))
+  // Cache busting parameters
+  JSDELIVR_URL.searchParams.set("z", Date.now().toString());
+  CLOUDFLARE_URL.searchParams.set("z", Date.now().toString());
+
+  return fetch(JSDELIVR_URL, FETCH_REQUEST_INIT)
+    .catch(() => fetch(CLOUDFLARE_URL, FETCH_REQUEST_INIT))
     .then((response) => response.json());
+}
+
+export function formatDate(date: ExchangeRateDate) {
+  return new Intl.DateTimeFormat(navigator.language, {
+    timeZone: "Etc/UTC",
+  }).format(new Date(date));
 }
 
 export type ExchangeRateResponse = {
@@ -51,9 +70,9 @@ export function fetchExchangeRates(
   // Fetch and cache exchange rates
   return fetchWithFallback(`currencies/${baseCurrency}.min.json`).then(
     (responseJson) => {
-      const exchageResponse = responseJson as ExchangeRateResponse;
-      exchangeRateCache.set(baseCurrency, exchageResponse);
-      return exchageResponse;
+      const exchangeResponse = responseJson as ExchangeRateResponse;
+      exchangeRateCache.set(baseCurrency, exchangeResponse);
+      return exchangeResponse;
     },
   );
 }
